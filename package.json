@@ -1,0 +1,9 @@
+{
+  "name": "cljs-score-interop",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Experimental ClojureScript boundary adapter for expo-alphatab",
+  "license": "MIT",
+  "scripts": {"test": "nbb -cp src:test -m score-interop.test-runner"},
+  "devDependencies": {"nbb": "1.6.214"}
+}
